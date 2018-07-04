@@ -1,0 +1,21 @@
+apply plugin: 'application'
+apply plugin: 'java'
+	
+dependencies {
+	testCompile 'junit:junit:4.11'
+}
+
+repositories {
+	mavenCentral()
+}
+
+jar{
+    manifest {
+	attributes 'Main-Class': 'app.App'
+
+    }
+    from{
+	configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+   }
+}
+mainClassName = 'app.App'

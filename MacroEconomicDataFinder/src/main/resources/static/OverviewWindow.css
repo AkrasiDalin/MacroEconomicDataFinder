@@ -1,0 +1,60 @@
+.list-View {
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+    /*-fx-background-color: #3180b6;*/
+    -fx-background-color: #3074a9;
+
+
+}
+
+.list-View .list-cell{
+    -fx-text-fill: #275480;
+    -fx-border-color:#3074a9;
+    -fx-background-radius: 25, 2;
+}
+
+.list-View .list-cell:even{
+    -fx-background-color: #c6d9ee;
+}
+.list-View .list-cell:odd {
+    -fx-background-color: #cbdef3;
+}
+
+.list-View .list-cell:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #ee613a;
+}
+
+.list-View .scroll-bar {
+    -fx-text-fill: white;
+    -fx-background-color: #3074a9;
+    -fx-pref-width: 20px;
+    -fx-border-color: transparent;
+
+}
+.list-View .scroll-bar .thumb {
+    -fx-background-color: #4f9fd1;
+}
+.list-View .scroll-bar .increment-button,.list-View .scroll-bar .decrement-button {
+    -fx-background-color: #3074a9;
+}
+.list-View .scroll-bar .increment-button .increment-arrow,.list-View .scroll-bar .decrement-button .decrement-arrow {
+    -fx-background-color: #fdfff4;
+}
+
+.country-infos {
+    -fx-pref-width: inherit;
+    -fx-padding: 20px;
+    -fx-padding-bottom: 90px;
+    -fx-background-color: linear-gradient(to bottom, rgb(54, 168, 0), rgb(54, 168, 0), rgba(54, 168, 0, 0.7), rgba(49, 128, 182, 0));
+    -fx-background-radius: 10px;
+
+}
+
+.bottom-Line {
+    -fx-background-color: #3180b6;
+
+}
+.bottom-Text {
+    -fx-fill: white;
+}

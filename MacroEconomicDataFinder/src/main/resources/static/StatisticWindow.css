@@ -1,0 +1,308 @@
+
+/*---------------------------------------------------------RIGHT PANE*/
+.main-pane .tab-content-area {
+    -fx-background-color: #fafafa;
+    -fx-background-color: rgba(255,255,255,.4);
+    -fx-border-width: 0px;
+    -fx-border-color: #3180b6;
+
+}
+/*---------------------------------------------------------EMPTY TOP ZONE*/
+.main-pane .tab-header-background {
+    -fx-background-color: #3180b6;
+
+}
+
+
+/*---------------------------------------------------------LEFT PANE*/
+
+
+.left-Pane, .tab {
+    -fx-background-color: #3074a9;
+    -fx-text-fill: #ffffff ;
+    -fx-font-family: Tahoma;
+    -fx-padding: 8px;
+    -fx-focus-color: #3074a9;
+}
+.left-Pane {
+    -fx-background-color: #3074a9;
+    -fx-background-color: linear-gradient(to bottom, #3074a9, #327bb3);
+}
+
+
+.tab, .tab-label {
+    -fx-text-fill: white;
+    -fx-background-color: #3180b6;
+
+}
+
+.tab:selected, .tab:selected .tab-label {
+    -fx-background-color: #3074a9;
+    -fx-border-color:#3074a9;
+
+
+}
+
+
+/*------------------------------------------RADIO BUTTON*/
+.left-Pane .label, .radio-button {
+    -fx-text-fill: white;
+}
+.left-Pane .radio-button .radio {
+    -fx-background-color: #8caabf;
+    -fx-background-insets: 0;
+    -fx-border-color: transparent;
+}
+
+.left-Pane .radio-button:selected .radio, .radio-button:selected  > .radio .dot {
+    -fx-border-color: #b9547d;
+    -fx-border-width: 2px;
+    -fx-background-color: #fa7f41;
+    -fx-border-insets: .5px;
+    -fx-background-insets: 0;
+    -fx-border-width: 0px;
+}
+
+/*------------------------------------------SELECTION PANE*/
+
+.description-Text {
+   -fx-fill: white;
+}
+
+
+
+.selection-Pane {
+    /*-fx-background-color: rgba(46, 110, 161, 0.44);*/
+    -fx-text-fill: white;
+}
+
+/*-------------------SELECTION BUTTON*/
+.selection-button {
+
+    -fx-padding: 10px;
+    -fx-border-style: none;
+    -fx-background-color: #b6435e;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+}
+.selection-button:hover {
+    -fx-background-color: #8e3449;
+}
+/*-------------------SELECTION BOX*/
+
+
+.search-Field {
+    -fx-background-color: #cbdef3;
+    -fx-border-color: transparent;
+    -fx-text-fill: #275480;
+    -fx-background-radius: 10px;
+    -fx-pref-width: 250px;
+
+
+}
+
+
+.selection-box{
+
+    -fx-text-fill: white;
+    -fx-border-color: #3f88b0;
+    -fx-background-insets: 0, 1;
+    -fx-background-color: #50afe2;
+}
+
+.selection-box .arrow-button {
+    -fx-background-color: #cbdef3;
+}
+
+.selection-box .arrow-button:hover {
+    -fx-background-color: #4f9fd1;
+}
+
+.selection-box .arrow-button:hover .arrow {
+    -fx-background-color: #fbfdff;
+}
+
+.selection-box .arrow {
+    -fx-background-color: #4f9fd1;
+}
+
+
+
+
+
+.selection-box .combo-box-popup .list-view  {
+    -fx-background-color: transparent;
+}
+
+.selection-box .list-cell  {
+    -fx-text-fill: #275480;
+    -fx-background-color: #cbdef3;
+}
+.selection-box .list-cell:odd {
+    -fx-background-color: #cbdef3;
+}
+.selection-box .list-cell:even {
+    -fx-background-color: #c6d9ee;
+}
+
+.selection-box .list-cell:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #ee613a;
+}
+
+
+
+.selection-box .scroll-bar  {
+    -fx-background-color: #3180b6;
+    -fx-pref-width: 29px;
+    -fx-border-color: transparent;
+}
+
+.selection-box .list-view .scroll-bar .thumb{
+    -fx-background-color: #4f9fd1;
+    -fx-pref-width: 50px;
+}
+.selection-box .list-view .scroll-bar .increment-button:hover,.selection-box .list-view .scroll-bar .decrement-button:hover {
+    -fx-background-color: #3180b6;
+}
+
+.selection-box .list-view .scroll-bar .increment-button .increment-arrow,.selection-box .list-view .scroll-bar .decrement-button .decrement-arrow {
+    -fx-background-color: #fdfff4;
+}
+
+
+
+.left-Pane .selection-Mode .box {
+    -fx-background-color: #8caabf;
+    -fx-border-color: transparent;
+}
+
+.left-Pane .selection-Mode:selected .box, .left-Pane .selection-Mode:selected .box .mark{
+    -fx-border-color: #b9547d;
+    -fx-background-color: #fa7f41;
+    -fx-border-insets: 1px;
+    -fx-border-width: 0px;
+}
+
+
+
+/*------------------------------------------COMPARISON PANE*/
+
+
+/*------------COMPARISON LIST*/
+.comparison-List  {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+    -fx-text-fill: #275480;
+}
+
+.comparison-List  .list-cell {
+    -fx-text-fill: #275480;
+}
+
+.comparison-List  .list-cell:odd {
+    -fx-background-color: #cbdef3;
+}
+.comparison-List  .list-cell:even {
+    -fx-background-color: #c6d9ee;
+}
+.comparison-List .list-cell:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #ee613a;
+}
+.comparison-List .list-cell:selected{
+    -fx-text-fill: white;
+    -fx-background-color: rgb(226, 92, 55);
+}
+
+
+.comparison-List  .scroll-bar  {
+    -fx-background-color: #3180b6;
+    -fx-pref-width: 29px;
+    -fx-border-color: transparent;
+}
+
+
+.comparison-List .scroll-bar .thumb{
+    -fx-background-color: #4f9fd1;
+    -fx-pref-width: 50px;
+}
+
+.comparison-List .scroll-bar .increment-button,.comparison-List .scroll-bar .decrement-button {
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+}
+.comparison-List .scroll-bar .increment-button:hover,.comparison-List .scroll-bar .decrement-button:hover {
+    -fx-background-color: #3180b6;
+}
+.comparison-List .scroll-bar .increment-button .increment-arrow,.comparison-List  .scroll-bar .decrement-button .decrement-arrow {
+    -fx-background-color: #ffffff;
+}
+
+
+
+/*------------YEAR SPINNER*/
+.year-Spinner, .year-Spinner:focused  {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+}
+
+
+.year-Spinner .text-field{
+    -fx-background-color: #cbdef3;
+    -fx-text-fill: #275480;
+}
+
+.year-Spinner .increment-arrow-button,.year-Spinner .decrement-arrow-button {
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+    -fx-background-color: #3180b6;
+}
+.year-Spinner .increment-arrow-button:hover, .year-Spinner .decrement-arrow-button:hover{
+    -fx-background-color: #4f9fd1;
+}
+.year-Spinner .increment-arrow-button .increment-arrow,.year-Spinner .decrement-arrow-button .decrement-arrow {
+    -fx-background-color: #fff;
+
+}
+
+
+/*---------------------------------------------------------RIGHT PANE*/
+
+.right-Pane {
+    -fx-background-color: linear-gradient(to bottom, rgba(49, 128, 182, 1), rgba(255,255,255,.4), rgba(255,255,255,0));
+}
+
+.right-Buttons{
+    -fx-background-color: linear-gradient(to bottom, rgba(83, 139, 182, 0), rgba(56, 133, 168, 0));
+    -fx-border-width: 2px;
+    -fx-border-color: linear-gradient(to bottom, rgba(49, 128, 182, 0.5), rgba(56, 133, 168, 0));
+
+}
+.right-Buttons:hover{
+    -fx-background-color: linear-gradient(to bottom, rgba(83, 139, 182, 0.69), rgba(56, 133, 168, 0));
+
+
+}
+
+
+.cache-Button {
+    -fx-pref-height: 50px;
+    -fx-background-color: transparent;
+    -fx-border-width: 1px;
+    -fx-border-color: linear-gradient(to bottom, rgba(49, 128, 182, 0.3), rgba(56, 133, 168, 0));
+    -fx-text-fill: rgba(0, 0, 0, 0.4);
+}
+.cache-Button:hover {
+    -fx-background-color: linear-gradient(to bottom, rgba(83, 139, 182, 0.38), rgba(56, 133, 168, 0));
+    -fx-text-fill: rgba(83, 139, 182, 0.69)
+}
+
+.tool-Tip {
+    -fx-background-color: rgba(30, 111, 182, 0.62);
+    -fx-padding: 10px;
+    -fx-text-fill: white;
+    -fx-background-radius: 25, 2;
+}

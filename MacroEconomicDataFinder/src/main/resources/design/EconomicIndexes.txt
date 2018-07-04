@@ -1,0 +1,46 @@
+GDP
+GDP per capita
+Consumer Price (CPI)
+Retail Price Indices (RPI)
+Unemployment
+Current account balance
+
+API URL Calls
+
+->To specify date range for data include ?date=STARTYEAR:ENDYEAR at end of statement.
+->To specify country for data, substitute 'all' for country code(us,uk,br etc) inside WORLDWIDE DATA statements.
+
+GDP
+-----------
+CODE: NY.GDP.MKTP.CD 
+INFO: http://api.worldbank.org/indicators/NY.GDP.MKTP.CD 
+WORLDWIDE DATA: http://api.worldbank.org/countries/all/indicators/NY.GDP.MKTP.CD
+
+GDP per capita
+------------
+CODE: NY.GDP.PCAP.CD
+INFO: http://api.worldbank.org/indicators/NY.GDP.PCAP.CD
+WORLDWIDE DATA: http://api.worldbank.org/countries/all/indicators/NY.GDP.PCAP.CD
+
+CPI
+------------
+CODE: FP.CPI.TOTL.ZG
+INFO: http://api.worldbank.org/indicator/FP.CPI.TOTL.ZG
+WORLDWIDE DATA: http://api.worldbank.org/countries/all/indicators/FP.CPI.TOTL.ZG
+
+RPI
+------------
+Unfound
+
+Unemployment (% of total labor force)
+------------
+CODE: SL.UEM.TOTL.ZS
+INFO: http://api.worldbank.org/indicator/SL.UEM.TOTL.ZS
+WORLDWIDE DATA: http://api.worldbank.org/countries/all/indicators/SL.UEM.TOTL.ZS
+
+Current account balance
+------------
+CODE: BN.CAB.XOKA.CD
+INFO: http://data.worldbank.org/indicator/BN.CAB.XOKA.CD
+WORLDWIDE DATA: Not available worldwide
+  must use -->  http://api.worldbank.org/countries/COUNTRYCODE/indicators/BN.CAB.XOKA.CD
